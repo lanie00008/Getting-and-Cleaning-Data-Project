@@ -27,4 +27,4 @@ features by measurements on the mean and the standard deviation, and subset the 
 6. Appropriately labels the data set with descriptive variable names. (This will help with the readability and easy to 
 interpret data)
 
-
+The output filename is : tidydataproject2015.txt
