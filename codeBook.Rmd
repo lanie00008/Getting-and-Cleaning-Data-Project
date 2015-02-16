@@ -1,0 +1,30 @@
+Getting and Cleaning Data Course Project
+
+The data was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+The files that were used for the project are the following :
+
+test/subject_test.txt
+test/X_test.txt
+test/y_test.txt
+train/subject_train.txt
+train/X_train.txt
+train/y_train.txt
+
+Overview of Variables in the code
+* Values of the Variable Activity comes from Y_train.txt and Y_test.txt
+* Values of the Variable Subject consist of data from Subject_train.txt and subject_test.txt
+* Values of the Variable Features consist of data from X_train.txt and X_test.txt
+* Names of Variables Features come from features.txt
+* levels of Variable Activity come from "activity_labels.txt
+
+These are the following steps to accomplish the project objective:
+1. Get the file from the downloaded data.
+2. Read the targeted file listed above into variables.
+3. From the above files, the objective is to merge the training and the test sets to create one data set. To accomplish this, combine the data tables by rows, set names for variables, and merge the columns to get the data frame "Data" for all data.
+4. Extracts only the measurements on the mean and standard deviation for each measurement.To accomplish this, subset name of 
+features by measurements on the mean and the standard deviation, and subset the data frame Data by selected names of features.
+5. Uses descriptive activity names to name the acitivities in the set. Using the activity_labels.txt, replace the activity with the correct activity name i.e. 5 = Walking.
+6. Appropriately labels the data set with descriptive variable names. (This will help with the readability and easy to 
+interpret data)
+
+
